@@ -1,6 +1,6 @@
 # Sistema de Pagamentos de Funcionários
 
-Este projeto é um sistema orientado a objetos desenvolvido em Java para calcular o pagamento mensal de diferentes categorias de funcionários. Foi construído como parte da avaliação presencial da disciplina de Programação Orientada por Objetos da Universidade Católica de Brasília (UCB).
+Este projeto é um sistema orientado a objetos desenvolvido em Java para calcular o pagamento mensal de diferentes categorias de funcionários.
 
 ## 🎯 Objetivo
 O objetivo principal do projeto é aplicar os conceitos de **Herança** e **Polimorfismo**. A partir de uma superclasse genérica, foram implementadas subclasses específicas que herdam as características básicas e sobrescrevem métodos para adaptar o cálculo de pagamento às regras de cada categoria de funcionário.
@@ -9,9 +9,9 @@ O objetivo principal do projeto é aplicar os conceitos de **Herança** e **Poli
 - **Cadastro de Funcionários Base:** Todos os funcionários possuem nome e matrícula.
 - **Validação de Dados:** O sistema impede o cadastro de valores numéricos negativos para salários, horas trabalhadas, vendas e percentuais.
 - **Cálculo de Pagamento Personalizado:**
-  - **Assalariado:** Recebe um salário fixo mensal.
-  - **Horista:** O pagamento é calculado multiplicando as horas trabalhadas pelo valor da hora.
-  - **Comissionado:** O pagamento é calculado aplicando um percentual sobre o total de vendas realizadas.
+- **Assalariado:** Recebe um salário fixo mensal.
+- **Horista:** O pagamento é calculado multiplicando as horas trabalhadas pelo valor da hora.
+- **Comissionado:** O pagamento é calculado aplicando um percentual sobre o total de vendas realizadas.
 - **Exibição de Dados:** Impressão detalhada dos dados de cada funcionário, incluindo os seus atributos específicos e o pagamento calculado formatado com duas casas decimais.
 
 ## 🏗️ Estrutura do Projeto (Classes)
